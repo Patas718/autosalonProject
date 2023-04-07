@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  user-select: none;  
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-image: url('https://patas.dev/Gif.gif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -ms-overflow-style: none;
+}
+
+@media screen and (max-width: 740px) {
+  body{
+      height: 2048px;
+      width: 1920px;
+      background-image: url('https://patas.dev/Gif-mobil.gif');
+  }
+  .card{
+      height: 300px;
+      width: 162px;
+  }
+  .header{
+      font-size: 16px;
+      float: left;
+  }
+}
+
+.header{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+#contact-form{
+    display: none;
+}
+
+#contact-form1{
+    display: none;
+}
+
+#contact-form2{
+    display: none;
+}
+
+.contact-form{
+    filter: blur(5px);
+    transition: 0.2s;
+}
+
+.contact-form:hover{
+    filter: blur(0px);
+}
+
+.contact-form1{
+    filter: blur(5px);
+    transition: 0.2s;
+}
+
+.contact-form1:hover{
+    filter: blur(0px);
+}
+
+.contact-form2{
+    filter: blur(5px);
+    transition: 0.2s;
+}
+
+.contact-form2:hover{
+    filter: blur(0px);
+}
+
+.form{
+    transition: 0.2s;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, 15%);
+    height: 600px;
+    width: 325px;
+    line-height: 175%;
+}
+
+.form1{
+    transition: 0.2s;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, 15%);
+    height: 600px;
+    width: 325px;
+    line-height: 175%;
+}
+
+.form2{
+    transition: 0.2s;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, 15%);
+    height: 600px;
+    width: 325px;
+    line-height: 175%;
+}
+
+.seller{
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jmeno{
+    float: right;
+}
+
+.input{
+   background-color: grey; 
+   border-radius: 3px;
+   border: 2px solid black;
+   color: white;
+}
+
+.check{
+    
+}
+
+.submit{
+    width: 70px;
+    height: 25px;
+    font-size: 15px;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 25px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+}
+
+.button{
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 25px;
+    width: 75px;
+    height: 25px;
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+}
+
+.button1{
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 25px;
+    width: 75px;
+    height: 25px;
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+}
+
+.button2{
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 25px;
+    width: 75px;
+    height: 25px;
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.button2:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+}
+
+.contact{
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.contact:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+}
+
+.contact1{
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.contact1:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+}
+
+.contact2{
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.contact2:hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 25px;
+}
+
+.card{
+    border: 5px solid black;
+    border-radius: 20px;
+    height: 600px;
+    width: 325px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-180%, -50%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 25px 15px 250px black;
+}
+
+.card1{
+    border: 5px solid black;
+    border-radius: 20px;
+    height: 600px;
+    width: 325px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 25px 15px 250px black;
+}
+
+.card2{
+    border: 5px solid black;
+    border-radius: 20px;
+    height: 600px;
+    width: 325px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(80%, -50%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 25px 15px 250px black;
+}
+
+.car{
+    width: 250px;
+    height: 250px;
+}
+
+.content{
+    text-align: center;
+    margin: 25px 25px 25px 25px;
+}
+
+.content1{
+    text-align: center;
+    margin: 25px 25px 25px 25px;
+}
+
+.content2{
+    text-align: center;
+    margin: 25px 25px 25px 25px;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.card .content {
+    filter: blur(5px);
+    transition: 0.2s;
+}
+
+.card:hover .content {
+    filter: blur(0px);
+}
+
+.card1 .content1 {
+    filter: blur(5px);
+    transition: 0.2s;
+}
+
+.card1:hover .content1 {
+    filter: blur(0px);
+}
+
+.card2 .content2 {
+    filter: blur(5px);
+    transition: 0.2s;
+}
+
+.card2:hover .content2 {
+    filter: blur(0px);
+}
